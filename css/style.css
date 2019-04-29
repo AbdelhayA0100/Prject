@@ -1,0 +1,51 @@
+.page-wrapper{
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;
+}
+.Navbar {
+    transition: all 1s initial;
+    
+    width: 100%;
+    float: right;
+    display: block;
+}
+.Navbar ul {
+      
+    float: right;
+    
+}
+#sidebar{
+max-width: 250px;
+min-width: 250px;
+background: cadetblue;
+}
+.navmenu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.headerbar  {
+  height: 55px;
+   text-align: center;
+   padding: 5px;
+   background-color: rgb(19, 130, 228);
+}
+.navmenu{
+     font-size: 20px;
+    }
+.navmenu li{
+        margin:10px;
+ }
+.navmenu li a span{
+    margin-right:100px;
+}
+
+.page-content{
+    height: 100%;
+    width: 100%;
+}
+.navmenu ul li:hover {
+background: cadetblue;
+}
